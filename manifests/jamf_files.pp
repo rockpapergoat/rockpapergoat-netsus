@@ -1,8 +1,8 @@
-class { "jamf_files":
+class netsus::jamf_files {
 
-  file("/var/appliance/conf":
+  file { "/var/appliance/conf":
     ensure => 'directory',
-  )
+  }
   
 
 }
